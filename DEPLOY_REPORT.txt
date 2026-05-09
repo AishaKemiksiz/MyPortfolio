@@ -1,0 +1,70 @@
+======================================================================
+DEPLOYMENT PACKAGE REPORT
+======================================================================
+
+INCLUDED HTML PAGES:
+----------------------------------------------------------------------
+  * contact.html
+  * index-dark-side-menu.html
+  * index-dark.html
+  * index-side-menu.html
+  * index.html
+  * project-details.html
+  * projects.html
+  * resume.html
+  * service.html
+  * services-details.html
+
+FILE STATISTICS:
+----------------------------------------------------------------------
+  Source folder: 121 files
+  dist_clean: 98 files
+  Removed: 23 files
+
+TOP-10 LARGEST FILES:
+----------------------------------------------------------------------
+   1. c6.jpg - 5241.17 KB (5,366,957 bytes)
+   2. assets\img\illustration\1.png - 419.10 KB (429,154 bytes)
+   3. assets\fonts\fa-solid-900.ttf - 410.48 KB (420,332 bytes)
+   4. assets\fonts\fa-duotone-900.woff - 259.20 KB (265,416 bytes)
+   5. assets\fonts\fa-light-300.woff - 246.01 KB (251,916 bytes)
+   6. assets\fonts\fa-regular-400.woff - 224.97 KB (230,372 bytes)
+   7. c2.jpg - 220.84 KB (226,145 bytes)
+   8. c1.jpg - 217.68 KB (222,904 bytes)
+   9. c4.jpg - 215.53 KB (220,700 bytes)
+  10. assets\fonts\fa-brands-400.ttf - 204.23 KB (209,128 bytes)
+
+REMOVED HTML PAGES:
+----------------------------------------------------------------------
+  * 404.html
+
+======================================================================
+LOCAL TESTING INSTRUCTIONS
+======================================================================
+
+1. Open dist_clean/index.html in browser
+   (just double-click the file)
+
+2. Check the following:
+   - Page loads correctly
+   - Styles are applied (CSS loads)
+   - Images are displayed
+   - Navigation between pages works
+   - JavaScript functions work
+
+3. Check all pages:
+   - contact.html
+   - index-dark-side-menu.html
+   - index-dark.html
+   - index-side-menu.html
+   - index.html
+   - project-details.html
+   - projects.html
+   - resume.html
+   - service.html
+   - services-details.html
+
+4. If something doesn't work:
+   - Open browser console (F12)
+   - Check resource loading errors
+   - Make sure file paths are correct

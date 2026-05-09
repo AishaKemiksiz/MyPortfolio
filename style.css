@@ -1,0 +1,105 @@
+/* ----------------------------------
+
+Template Name: Xorim - Personal Portfolio Template
+Author: validtheme
+Description:
+Version: 1.0
+
+Main Font    : Kanit
+Main Color   : #ffb646
+
+-------------------------------------
+
+[Typography]
+
+Body copy:    15px 'Kanit', sans-serif
+Header:     36px 'Teko', sans-serif
+Input, textarea:  16px 'Kanit', sans-serif
+Sidebar heading:  22px 'Teko', sans-serif
+
+>>> TABLE OF CONTENTS:
+=======================
+        
+    01. Template default css
+        - Animations
+        - General
+        - Section Title
+        - Video Button
+        - Typography
+        - Tables
+        - Forms
+        - Buttons
+        - Pagination
+        - Colors
+        - Accordion
+        - Tabs
+    02. Preloader
+    03 Navbar
+        - Navbar Sidebar
+        - Navbar Sticky
+    04. Home Page
+        - Dark Version
+        - Light Version
+    05. Services
+        - Service Single
+	06. About
+    07. Project
+        - Project Single
+    08. Skill
+    09. Experience
+    10. Education
+    10. CV/Resume
+    12. Faq
+    13. Progress
+    14. Brand / Partner
+    15. Pricing
+    16. Blog
+        - Single
+    17. Error 404
+    18. Footer
+    19. PHP Contact Form
+    20. Others
+
+*/
+
+/*
+** General Styles for HTML tags
+*/
+
+/* Blog Insight Section - Image Styles */
+.home-blog-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1600 / 1190;
+}
+
+.home-blog-thumb {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Blog Insight Section - Responsive Grid */
+/* ≥1024px: 3 колонки */
+@media (min-width: 1024px) {
+    .home-blog-single {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+/* 768–1023px: 2 колонки */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .home-blog-single {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+/* ≤767px: 1 колонка */
+@media (max-width: 767px) {
+    .home-blog-single {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
